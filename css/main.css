@@ -20,6 +20,9 @@ body {
 img {
   vertical-align: middle;
 }
+p {
+  font-weight: 500;
+}
 
 .container {
   width: 1200px;
@@ -63,6 +66,7 @@ a {
 
 a:hover {
   color: #E95853 !important;
+  /* cursor: pointer; */
 }
 
 .text-uppercase {
@@ -77,5 +81,18 @@ a:hover {
 }
 
 nav {
-  font-weight: bold;
+  font-weight: 740;
+}
+
+.home {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.services {
+  background-color: #F17C72;
+  /* height: 80vh; */
 }
