@@ -57,12 +57,12 @@ img {
 }
 
 a {
-  color: #373B47;
+  color: #373B47 !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E95853;
+  color: #E95853 !important;
 }
 
 .text-uppercase {
@@ -71,3 +71,11 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+.logo-img {
+  height: 2em;
+  margin-right: 4em;
+}
+
+nav {
+  font-weight: bold;
+}
