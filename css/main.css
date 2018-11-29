@@ -20,6 +20,9 @@ body {
 img {
   vertical-align: middle;
 }
+p {
+  font-weight: 500;
+}
 
 .container {
   width: 1200px;
@@ -57,12 +60,13 @@ img {
 }
 
 a {
-  color: #373B47;
+  color: #373B47 !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E95853;
+  color: #E95853 !important;
+  /* cursor: pointer; */
 }
 
 .text-uppercase {
@@ -71,3 +75,24 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+.logo-img {
+  height: 2em;
+  margin-right: 4em;
+}
+
+nav {
+  font-weight: 740;
+}
+
+.home {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.services {
+  background-color: #F17C72;
+  /* height: 80vh; */
+}
